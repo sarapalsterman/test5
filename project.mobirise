@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 36,
+    "uniqCompNum": 40,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": "true",
@@ -49,10 +49,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -64,16 +64,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#77905d"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#88a26f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#90a878"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#efefef",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -93,16 +93,16 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#efefef"
             }
           },
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#90a878",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#efefef",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -131,8 +131,8 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"true\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"false\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
         },
         {
           "_name": "header1",
@@ -172,7 +172,7 @@
             "showButtons": true
           },
           "title": "",
-          "text": "The art and stories of<br> Sara Palsterman",
+          "text": "The art of<br> Sara Palsterman",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"index.html#msg-box3-a\" data-toolbar=\"-mbrBtnMove\">About</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"Art.html\" data-toolbar=\"-mbrBtnMove\">Art</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"photography.html\" data-toolbar=\"-mbrBtnMove\">Photography</a>"
         },
         {
@@ -292,13 +292,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#77905d"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#88a26f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#90a878"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -327,12 +327,12 @@
           "_name": "menu",
           "_anchor": "menu-d",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#90a878",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -387,7 +387,7 @@
           "_name": "features6",
           "_anchor": "features6-g",
           "_params": {
-            "paddingTop": "3",
+            "paddingTop": "4",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
@@ -418,10 +418,10 @@
               "family": "et-line"
             }
           },
-          "title1": "The question",
+          "title1": "<p>The question</p>",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "korte uitleg",
-          "button1": "<a data-app-btn=\"true\" href=\"Stories.html#header3-i\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">READ</a>",
+          "caption1": "This story follows a wolf on his path through the forest and on his quest to find answers to the questions that had been haunting for a very long time..&nbsp;",
+          "button1": "<a data-app-btn=\"true\" href=\"Stories.html#header3-i\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">READ</a>",
           "media2": {
             "iconFont": {
               "active": true,
@@ -435,7 +435,7 @@
           "title2": "Story 2",
           "subtitle2": "One of Bootstrap 4's big points",
           "caption2": "Coming soon",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">READ</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">READ</a>",
           "media3": {
             "iconFont": {
               "active": true,
@@ -524,7 +524,8 @@
           "_styles": {
             "P": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "left"
             }
           },
           "_anchor": "content1-h",
@@ -533,7 +534,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>Tijdens zijn zwerftocht in het bos was de wolf aan het denken aan een vraag die hem al weken aan het kwellen was. Zo zwierf hij al een lange tijd op zoek naar antwoorden. Hij at amper nog iets daar zijn gedachten geheel in beslag genomen waren door die ene vraag, en was daar te veel mee bezig om te slapen of te jagen. Levend op de occasionele dode muis die hij vond, werd hij steeds magerder en zwakker.&nbsp;</p><p>Wanneer hij echter op een dag aan het overpeinzen was of hij het niet beter gewoon allemaal op zou geven, kreeg hij plots het ongemakkelijke gevoel dat hij bekeken werd. Het gevoel was zo intens dat zelfs hij, in zijn miserabele conditie, het leek op te merken.&nbsp;</p><p>Hij draaide zich om in een zoektocht naar de bron van deze gewaarwording en vond deze net achter zich op een brede tak, hoog in een oeroude essenboom. De grote zwarte raaf zat daar al heel erg lang. Zo lang zelfs dat het bijna leek alsof hij daar altijd al gezeten had.&nbsp;</p><p>Het was een zeer oud en sjofel uitziende vogel, met een witte waas over zijn ogen die suggereerde dat hij van de ouderdom blind aan het worden was. Hij zag echter wel nog genoeg om de getroubleerde wolf te bekijken en zijn kans te zien.&nbsp;</p><p><br></p><p>De wolf keek op naar de raaf. Zijn drukkende aanwezigheid binnendringen in zijn gevoel. De raaf spreidde zijn vleugels, schikte zijn veren en sprak : “Je lijkt bezorgd wolf. Jij hebt vragen, ik heb antwoorden.” Dit trok de aandacht van de wolf en deed hem een sprankeltje hoop voelen. Kon het zijn dat de oude raaf boven hem wijs genoeg was om de antwoorden op zijn vragen te hebben?&nbsp;</p><p>De vogel merkte zijn interesse op en ging verder met spreken (zelfs voor iemand van zijn diersoort kende hij ongelooflijk veel woorden) : “Alles heeft een prijs en dus ook het antwoord dat je zo wanhopig aan het zoeken bent. Ik ken de vraag, ken jij de prijs?”</p><p><br></p><p>De wolf kende de prijs niet, maar zou alles gegeven hebben om deze verschrikkelijke ervaring een einde toe te roepen. Omdat hij niet kon spreken, boog hij zijn hoofd om aan te geven dat hij akkoord ging en er klaar voor was.&nbsp;</p><p>Het gebaar was amper genoeg voor de raaf om het te zien, maar hij nam aan dat het feit dat de wolf er nog stond genoeg was. Hij vloog naar beneden om op gelijke hoogte met de wolf te komen en zei : “ Dan zal ik van jou je zicht ontnemen. Het mijne was ook van mij ontnomen door de tijd.”. De raaf sprong iets dichter bij de wolf, gerustgesteld doordat de wolf nog steeds zijn antwoord verwachtte en dus onschadelijk zou zijn.&nbsp;</p><p>Er heerste een ongemakkelijke spanning tussen de dieren wanneer uiteindelijk het zicht van de wolf aan afnam. De raaf nam echter net genoeg om zijn eigen zicht volledig te herstellen, zodat de wolf nog de mogelijkheid had om ruwe vormen en licht te zien, maar niet veel meer. Hij boog zijn hoofd in aanvaarding en dankbaarheid.&nbsp;</p><p>Zo maakte de raaf – van nature een eerlijk dier als het aankomt op onderhandelen – zich klaar om de vraag te beantwoorden. De wolf luisterde met zijn volle aandacht. “De vraag die je hebt is een moeilijke en ik kan er niet zeker van zijn dat je het antwoord als waar gaat aannemen.”. De wolf voelde zich steeds onrustiger worden. Had hij een simpel antwoord verwacht? Een verschrikkelijke angst ontwaakte in hem wanneer hij zich realiseerde dat hij of het gegeven antwoord niet zou verstaan, of het niet zou aanvaarden. In zijn angst ging er een verschrikkelijke kracht verscholen. Een kracht die zo lang slapende was geweest vond zijn weg naar buiten met een donderende brul.&nbsp;</p><p>De raaf, die deze plotse verandering niet had zien aankomen, was te laat om door te hebben wat er gebeurd was in het hoofd van de wolf en viel ten prooi aan de onmenselijke kracht van de wolf. Hij kon nog net een oog uitkrabben in de hoop de wolf toch volledig te verblinden, maar de wolf was te snel en beet de raaf dood in één hap. Het was pas toen hij het bloed van de vogel proefde dat hij de controle over zichzelf terugkreeg. Het duurde eventjes, terwijl hij daar stond met de dode raaf in zijn mond, voordat hij besefte dat hij waarschijnlijk de enige weg uit zijn situatie gedood had. Hij had niet alleen de kans op een antwoord verkeken maar hij was ook zijn zicht verloren. Erger nog, hij voelde zich nog meer alleen dan voordat hij de raaf ontmoet had.&nbsp;</p><p>Uiteindelijk vertrok hij weer op een reis door de bossen, voor eeuwig op zoek naar antwoorden die hij nooit zou vinden.&nbsp;</p>"
+          "text": "<p><br></p><p>The wolf, wandering through the forest, was thinking about the question that had been bothering him for the past few weeks. He'd been wandering, looking for the answer for ages, barely eating a thing because his mind was too preoccupied to hunt, eat or even sleep. Living of the occasional dead mouse he found, he grew skinny and weary.</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">One day however, while he was pondering on giving up on it all, he felt the unsettling feeling of someone watching him. The feeling was so intense that, even in his awful condition, he seemed to take notice of it.&nbsp;</span><br></p><p>He searched for the source of the experience and found it right behind him on a branch high up in an ancient ash. The great black raven had been sitting there for a very long time. So long, that it appeared as though he had always been there. He seemed old and shabby, a white gleam over its eyes suggesting it was going blind with age. He saw sufficiently to watch the troubled wolf though and he saw his chance.&nbsp;</p><p><br></p><p>The wolf looked up at him, noticing his presence, but only in the slightest. The raven stretched out his wings, ruffling his feathers, and spoke. He spoke in the typical monotone, deep manner with which ravens generally speak : “You are troubled, wolf. You have questions, I have answers.”. This caught the attention of the wolf. He felt a sparkle of hope, could it be that the ancient raven before him was wise enough to answer his question?&nbsp;</p><p>Th bird noticed his interest and continued to speak. (Even for his kind, the bird knew an awful lot of words). “Everything has a price, and so has the answer you are so desperately seeking. I know the question, do you know the price?” The wolf didn't know, but he'd gladly have given anything he had for this torture to stop. Not being able to speak, he nodded is head saying he was ready and willing.&nbsp;</p><p><br></p><p>The sign was barely enough for the raven to see, but he assumed the answer and came flying down to match the height of the wolf. “Then I will take your sight, which was also taken from me.”. He hopped even closer to the wolf, assured by the fact that by not having answered his question yet, the wolf would be harmless. There was an uneasy tension between the two creatures, when at last the wolf's sight began to dwindle. The raven took just enough to restore his own, leaving the poor wolf with the ability to see shapes and light, but not a lot more. He bowed his head in acceptance and gratitude.&nbsp;</p><p><br></p><p>And so the raven, being an honest creature by nature, made to answer the question. And the wolf listened carefully.&nbsp;</p><p>“The question you have is a complicated one, and I am not sure if you will accept the answer as the truth.”. The wolf felt a growing unease. Had he really expected a simple answer? Fear struck him as he realized he would either not understand the answer that would be given to him or he would not like, nor accept it.&nbsp;</p><p>In his fear there was a terrible power. A power that had been dormant for so long now found its way out with a thunderous roar.&nbsp;</p><p>The raven, not expecting this turn of events,  was too late to realize what had happened in the wolf's mind and fell victim to the agonizing fear. He managed to scratch an eye out, but the wolf didn't feel any external pain and killed the raven in a single bite. Upon tasting the birds blood the wolf regained the control over himself. It took him some time, standing with the dead raven in his mouth, before it dawned upon him that he had killed the only way out of his situation. Not only has he lost the chance for an answer, but he had also lost his sight. Worse even, he felt even more lost and lonely than before meeting the raven.&nbsp;</p><p>Eventually he set of once more to travel in the woods, forever looking for answers he'd never find.&nbsp;</p>"
         }
       ]
     },
@@ -552,10 +553,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -567,16 +568,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#77905d"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#88a26f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#90a878"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#efefef",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -596,18 +597,18 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#efefef"
             }
           },
           "_name": "menu",
           "_anchor": "menu-j",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#90a878",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#efefef",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -634,8 +635,8 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"true\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"false\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
         },
         {
           "_name": "footer1",
@@ -659,14 +660,22 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-section-text": {
+              "color": "#28324e"
+            }
+          },
           "_anchor": "header2-l",
           "_params": {
             "imageSize": 50,
             "parallax": true,
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
@@ -678,13 +687,13 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "showArrow": false
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/20170123.jpg",
+              "src": "@PROJECT_PATH@/assets/images/20170123-1.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -702,8 +711,8 @@
               "size": 250
             }
           },
-          "title": "INTRO WITH IMAGE",
-          "text": "My work is bla dibla . Click on what you want to see.",
+          "title": "My art",
+          "text": "&nbsp;Click on what you want to see.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"photography.html\" data-toolbar=\"-mbrBtnMove\">Photography</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">Paintings</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">Drawings</a>"
         }
       ]
@@ -718,48 +727,54 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "slider3",
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-10",
           "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/mg.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "IMAGE SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/img.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "BACKGROUND VIDEO",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#90a878",
-            "showBullets": true
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
           },
-          "_anchor": "slider3-u",
-          "articleLayout": false
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/a.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "My photography is very inspired by nature and light; The pictures I take often get used as an inspiration for my paintings and drawings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
           "_tags": [
@@ -767,7 +782,7 @@
           ],
           "_name": "gallery1",
           "_params": {
-            "paddingTop": 0,
+            "paddingTop": "3",
             "paddingBottom": 0,
             "images": [
               {
@@ -822,10 +837,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -837,16 +852,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#77905d"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#88a26f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#90a878"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#efefef",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -866,18 +881,18 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#efefef"
             }
           },
           "_name": "menu",
           "_anchor": "menu-m",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#90a878",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#efefef",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -904,8 +919,8 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"true\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"false\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
         },
         {
           "_name": "footer1",
@@ -936,53 +951,183 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery1",
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-11",
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20160929-1-800x990.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20160929-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20160905-1-800x1001.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20160905-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/20161011-1-800x1240.jpg",
-                "image": "@PROJECT_PATH@/assets/images/20161011-1.jpg",
-                "caption": "Type caption here",
-                "active": true
-              }
-            ],
-            "spacing": "1",
-            "showText": false,
-            "filter": false,
-            "bgColor": "#90a878",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "0",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
           },
-          "_anchor": "gallery1-w",
-          "articleLayout": false,
-          "allItem": "All"
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/20160905-1.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "\"untitled\", 10x15, acrylics on paper",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-13",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "2016-2017",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-12",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "columns": "4",
+            "showImages": true,
+            "showTitles": false,
+            "showSubtitles": false,
+            "ShowTexts": true,
+            "showButtons": false
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/20160929-1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/20161011-1.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4's big points",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
           "_styles": {
@@ -993,10 +1138,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#efefef"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1008,16 +1153,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#77905d"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#88a26f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#90a878"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#efefef",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1037,18 +1182,18 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#efefef"
             }
           },
           "_name": "menu",
           "_anchor": "menu-o",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#90a878",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#efefef",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -1075,8 +1220,8 @@
               "active": true
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"true\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
+          "brand": "<a class=\"navbar-caption text-white\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sara Palsterman</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box3-a\">ABOUT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Stories.html\">STORIES</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"Art.html\" aria-expanded=\"false\">ART</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"photography.html\">Photography</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"drawings.html\">Drawings</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"paintings.html\">Paintings</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.instagram.com/sarapalsterman/\">Instagram</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"https://www.facebook.com/sara.palsterman.arts/\">Facebook</a></li>"
         },
         {
           "_name": "footer1",
@@ -1094,67 +1239,6 @@
             "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2016 Sara Palsterman."
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider3",
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/20160905.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "contentAlign": "center",
-                "showTitle": false,
-                "title": "IMAGE SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/20160929.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "contentAlign": "left",
-                "showTitle": false,
-                "title": "BACKGROUND VIDEO",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/20161011.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": false,
-                "contentAlign": "right",
-                "showTitle": false,
-                "title": "BOOTSTRAP SLIDER",
-                "showText": false,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              }
-            ],
-            "fullScreen": false,
-            "bgColor": "#90a878",
-            "showBullets": true
-          },
-          "_anchor": "slider3-v",
-          "articleLayout": false
         }
       ]
     },
@@ -1227,7 +1311,7 @@
             "spacing": "1",
             "showText": false,
             "filter": false,
-            "bgColor": "#90a878",
+            "bgColor": "#efefef",
             "filterBgColor": false,
             "fullWidth": false,
             "showBullets": true
@@ -1260,13 +1344,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#77905d"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#88a26f!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#90a878"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -1295,7 +1379,7 @@
           "_name": "menu",
           "_anchor": "menu-q",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#90a878",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
